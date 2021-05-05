@@ -65,7 +65,7 @@ const start = () => {
         chatId,
         'https://tlgrm.ru/_/stickers/848/be3/848be3f5-be18-426f-8d6a-18ff7f5224cb/8.webp'
       )
-      return bot.sendMessage(chatId, 'Ти вгадав', againOptions)
+      return bot.sendMessage(chatId, 'Ти вгадав!', againOptions)
     } else {
       await bot.sendSticker(
         chatId,
