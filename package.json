@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "js, telegram",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovabatsyk/Bot.git"
+  },
+  "author": "vovabatsyk <vovabatsyk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vovabatsyk/Bot/issues"
+  },
+  "homepage": "https://github.com/vovabatsyk/Bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.53.0",
+    "nodemon": "^2.0.7"
+  }
+}

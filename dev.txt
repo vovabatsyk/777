@@ -1,4 +1,0 @@
-const fuct = (num) {
-	if(fuct(num) == 1) return
-	return fuct(num -1)
-}
